@@ -21,10 +21,6 @@ double bisect( float x1, float xu, float es, float imax, float xr, int iter, dou
     do{
         xrold = xr;
         xr = (x1+xu)/2;
-        //cout << "Iteración: "<< iter << endl;
-        //cout << "X1: "<<x1<<endl;
-        //cout << "Xu: "<<xu<<endl;
-        //cout << "Xr: "<<xr<<endl;
         iter++;
         if(xr != 0){
             ea = abs((xr-xrold)/xr)*100;
