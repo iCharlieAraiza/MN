@@ -31,8 +31,7 @@ double bisect( float x1, float xu, float es, int imax, float xr, int iter, int e
             ea = abs((xr-xrold)/xr) * 100;
         }
         test = fi*fr;
-        
-        cout<<test<<endl;
+
         if(test < 0){
             xu = xr;
         }else if(test > 0){
