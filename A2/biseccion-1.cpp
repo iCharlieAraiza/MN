@@ -26,7 +26,6 @@ double bisect( float x1, float xu, float es, float imax, float xr, int iter, dou
             ea = abs((xr-xrold)/xr)*100;
         }
         test = f(x1)*f(xr);
-        cout <<test<<endl;
         if(test <0.0f ){
             xu = xr;
         }else if(test >0){
@@ -34,7 +33,6 @@ double bisect( float x1, float xu, float es, float imax, float xr, int iter, dou
         }else{
             ea = 0;
         }
-        //cout << endl;
     }while(ea > es || iter <= imax);
     return xr;
 }
