@@ -9,7 +9,7 @@ double TrapEq (int n, int a, int b);
 
 int main()
 {
-    cout<<"El resultado es " << TrapEq(6,0,6);
+    cout<<"El resultado es " << TrapEq(8,0,4);
     return 0;
 }
 
