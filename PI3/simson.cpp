@@ -31,7 +31,6 @@ float simpsonCompuesto(float tabla[6][2]){
     float I1, I2;
     
     I1 = (tabla[3][0]-tabla[0][0])*((tabla[0][1]+3*tabla[1][1]+3*tabla[2][1]+tabla[3][1])/8);
-    
     I2 = (tabla[5][0]-tabla[3][0])*((tabla[3][1]+4*tabla[4][1]+tabla[5][1])/6);
     
     return I1+I2;
